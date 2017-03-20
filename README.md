@@ -21,7 +21,7 @@ git clone https://github.com/redbeard28/install_terraform_packer.git
 
 ## Run the script
 ```bash
-cd ~/scripts
+cd ~/scripts/install_terraform_packer
 ./install_terraform_packer.sh
 ```
 
