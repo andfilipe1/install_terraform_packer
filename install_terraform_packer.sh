@@ -23,3 +23,8 @@ cd ~/terraform_0.8.6 && curl -O https://releases.hashicorp.com/terraform/0.8.6/t
 cd ~/packer_0.12.3 && curl -O https://releases.hashicorp.com/packer/0.12.3/packer_0.12.3_linux_amd64.zip
 cd ~/terraform_0.8.6 && unzip terraform_0.8.6_linux_amd64.zip && sudo ln -s ~/terraform_0.8.6/terraform /usr/bin/terraform
 cd ~/packer_0.12.3 && unzip packer_0.12.3_linux_amd64.zip && sudo ln -s ~/packer_0.12.3/packer /usr/bin/packer
+
+# Optional: If you need ansible like me.
+sudo apt-add-repository ppa:ansible/ansible -y
+sudo apt-get update
+sudo apt-get install ansible -y
