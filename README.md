@@ -14,8 +14,8 @@ sudo apt install git -y
 ```
 ## Clone bash script from GIT
 ```bash
-mkdir ~/scipts
-cd ~/scipts
+mkdir ~/scripts
+cd ~/scripts
 git clone https://github.com/redbeard28/install_terraform_packer.git
 ```
 
