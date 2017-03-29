@@ -16,6 +16,8 @@
 sudo unlink /usr/bin/terraform                                                                                                                                                                                                       
 sudo unlink /usr/bin/packer
 rm /usr/bin/{terraform,packer}
+rm -rf ~/terraform_0.*
+rm -rf ~/packer_0*
 
 # We start to create folder and then download binaries, mkae a sym-link.
 mkdir ~/{terraform_0.8.6,packer_0.12.3}
