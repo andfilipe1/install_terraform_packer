@@ -6,10 +6,6 @@ site_author: Jeremie CUADRADO aka redbeard28
 
 theme: readthedocs
 pages:
-- Home: 'index.md'
-- User Guide:
-    'Prequisits': 'prequisits.md'
-    'Tested for': 'tested_os.md'
-- About:
-    'License': 'license.md'
-    'About': 'about.md'
+  - [ 'index.md', 'Home' ]
+  - [ 'prequisits.md', 'Home', 'Prequisits' ]
+  - [ 'tested_os.md', 'Home', 'Tested for' ]
