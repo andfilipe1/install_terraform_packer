@@ -5,6 +5,7 @@
   </a>
 </h1>
 
+
 ## Object
 A simple Bash script to install Terrafor and packer on a Ubuntu.
 
@@ -40,5 +41,9 @@ sudo apt-add-repository ppa:ansible/ansible -y
 sudo apt-get update
 sudo apt-get install ansible -y
 ```
+
+## Url to the doc is
+[Documentation for install terraform packer and ansible](http://install-terraform-packer.readthedocs.io/en/latest/ )
+
 
 # That's all folks !
