@@ -1,4 +1,5 @@
-# install_terraform_packer <h1>
+<h1>
+  <span>install_terraform_packer</span>
   <a href='http://install-terraform-packer.readthedocs.io/en/latest/?badge=latest'>
     <img src='https://readthedocs.org/projects/install-terraform-packer/badge/?version=latest' alt='Documentation Status' />
   </a>
