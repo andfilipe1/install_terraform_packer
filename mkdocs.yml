@@ -6,6 +6,6 @@ site_author: Jeremie CUADRADO aka redbeard28
 
 theme: flatly
 pages:
-  - [ 'index.md', 'Home' ]
-  - [ 'prequisits.md', 'Home', 'Prequisits' ]
-  - [ 'teste_os.md', 'Home', 'Tested for' ]
+  - [ 'docs/index.md', 'Home' ]
+  - [ 'docs/prequisits.md', 'Home', 'Prequisits' ]
+  - [ 'docs/teste_os.md', 'Home', 'Tested for' ]
