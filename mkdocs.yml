@@ -7,7 +7,7 @@ site_author: Jeremie CUADRADO aka redbeard28
 theme: readthedocs
 pages:
   - [ 'index.md', 'Home' ]
-  - [ 'prequisits.md', 'User Guide', 'Prequisits' ]
-  - [ 'tested_os.md', 'User Guide', 'Tested for' ]
+  - [ 'prequisits.md', 'Home', 'Prequisits' ]
+  - [ 'tested_os.md', 'Home', 'Tested for' ]
   - [ 'license.md', 'About', 'License' ]
   - [ 'about.md', 'About', 'about.md' ]
