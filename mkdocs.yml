@@ -4,8 +4,8 @@ repo_url: https://github.com/redbeard28/install_terraform_packer/
 site_description: A simple bash script to install terraform, packer and ansible
 site_author: Jeremie CUADRADO aka redbeard28
 
-theme: flatly
+theme: readthedocs
 pages:
-  - [ 'docs/index.md', 'Home' ]
-  - [ 'docs/prequisits.md', 'Home', 'Prequisits' ]
-  - [ 'docs/teste_os.md', 'Home', 'Tested for' ]
+  - [ 'index.md', 'Home' ]
+  - [ 'prequisits.md', 'Home', 'Prequisits' ]
+  - [ 'tested_os.md', 'Home', 'Tested for' ]
