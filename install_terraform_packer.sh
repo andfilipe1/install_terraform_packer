@@ -20,10 +20,10 @@ rm -rf ~/terraform_0.*
 rm -rf ~/packer_0*
 
 # We start to create folder and then download binaries, mkae a sym-link.
-mkdir ~/{terraform_0.8.6,packer_0.12.3}
-cd ~/terraform_0.8.6 && curl -O https://releases.hashicorp.com/terraform/0.8.6/terraform_0.8.6_linux_amd64.zip
+mkdir ~/{terraform_0.10.3,packer_0.12.3}
+cd ~/terraform_0.10.3 && curl -O https://releases.hashicorp.com/terraform/0.10.3/terraform_0.10.3_linux_amd64.zip
 cd ~/packer_0.12.3 && curl -O https://releases.hashicorp.com/packer/0.12.3/packer_0.12.3_linux_amd64.zip
-cd ~/terraform_0.8.6 && unzip terraform_0.8.6_linux_amd64.zip && sudo ln -s ~/terraform_0.8.6/terraform /usr/bin/terraform
+cd ~/terraform_0.10.3 && unzip terraform_0.10.3_linux_amd64.zip && sudo ln -s ~/terraform_0.10.3/terraform /usr/bin/terraform
 cd ~/packer_0.12.3 && unzip packer_0.12.3_linux_amd64.zip && sudo ln -s ~/packer_0.12.3/packer /usr/bin/packer
 
 # Optional: If you need ansible like me.
